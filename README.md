@@ -21,4 +21,9 @@ is purely in beta status.
 
 I've included pinout diagrams of parts required by this board.
 
+bigDumpv*.zip is the arduino IDE code for the Prof Boots mini-dump RC model (large one). This code
+should work with the Prof Boots PCB and with the RC_Controller PCB here. The battery monitor and
+remote power off obviously won't work with the Prof Boots PCB as this doesn't have the necessary
+hardware.
+
 Dave Crabbe
