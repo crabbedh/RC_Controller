@@ -5,6 +5,7 @@ This repository contains the KiCad generated Gerber files for a PCB
 that offers a general purpose ESP32 controller suitable for small RC
 projects, such as Skid Steers, Dump Trucks, cars, etc. There were a few design
 goals for the creation of this PCB.
+
 0. designed for the ESP32 DevKit V1 module from EspressIF
 1. small size
 2. supports 4 motors or devices that can use motor outputs
