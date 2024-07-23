@@ -39,7 +39,8 @@ creating an account so you have a history of the order and can view its status. 
 I received 5 boards for $6 Cdn, $4 US which I received in about 2 weeks)
 
 bigDumpv*.zip is the arduino IDE code for the Prof Boots mini-dump RC model (large one). This code
-should work with the Prof Boots PCB and with the RC_Controller PCB here. The battery monitor and
+will work with the Prof Boots PCB and with the RC_Controller PCB here (you may have to change port 
+designations to match your setup. The battery monitor and
 remote power off obviously won't work with the Prof Boots PCB as this doesn't have the necessary
 hardware.
 
