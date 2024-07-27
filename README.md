@@ -1,6 +1,8 @@
 # RC_Controller by Crab Consulting
 RC Controller for ESP32 projects   July '24
 
+* Beta Testing & BUG LISTING at end of this readme **********
+
 This repository contains the KiCad generated Gerber files for a PCB
 that offers a general purpose ESP32 controller suitable for small RC
 projects, such as Skid Steers, Dump Trucks, cars, etc. There were a few design
@@ -45,3 +47,11 @@ remote power off obviously won't work with the Prof Boots PCB as this doesn't ha
 hardware.
 
 Dave Crabbe
+
+********* Testing *****************
+Initial tests are great. No errors in the PCB. I've used board in both the larger Mini-Dump and in my "Tracker" remix of the mini-skidi
+
+******** BUGS *********************
+I used ESP32 Pin #5 for an input to a Motor Controller and should not have. This pin goes high on reboot. If you have this on a motor,
+the motor will operate until the code initializes that pin as an output. About 3-5 seconds. In the next iteration, I'll use D27 instead
+which should not exhibit this behavior. 
