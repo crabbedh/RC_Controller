@@ -32,9 +32,7 @@ goals for the creation of this PCB.
 The PCB supports a Pololu 2808 power switch, or a physical Slide switch. (pololu.com)
 It uses 2 DRV8833 motor driver boards which can each control 2 motors/devices
 
-Now in Release 2 with Beta version working very well.
-
-Free use, except for commercial purposes. 
+Everything here is free to use, except for commercial purposes. Don't post on other sites, just link this page.
 
 I've included pinout diagrams of parts required by this board.
 
