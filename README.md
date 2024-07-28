@@ -1,6 +1,9 @@
 # RC_Controller by Crab Consulting
 RC Controller for ESP32 projects   July '24
 
+--------->  V2 of PCB Gerber & Schematic now released
+Please use this version
+
 * Beta Testing & BUG LISTING at end of this readme **********
 
 This repository contains the KiCad generated Gerber files for a PCB
@@ -12,26 +15,25 @@ goals for the creation of this PCB.
 1. small size
 2. supports 4 motors or devices that can use motor outputs
 3. readily available components from AliExpress
-4. support for a "Power Switch" to allow the CPU to shut off power
+4. support for a "Power Switch" to allow the ESP32 to shut off power
 5. support for offboard 2S powersource (7-9v ideal)
-6. ability to monitor state of power source
+6. ability to monitor voltage of power source
 7. supports 3 servos
 8. supports one general purpose analog input (12 bit ADC from 0-3.3v)
 9. Drop in replacement for the ProfessorBoots larger MiniDump model and
-    Mini Skidi, using my remixed chassis. (mini skidi not yet tested)
-    on Printables.com.
+    "Tracker" Mini Skidi, using my remixed chassis. Both Tested.
+     https://www.printables.com/model/948849-mini-dump-v3-power-remix
+     https://www.printables.com/model/896776-tracker-skidsteer-tank-track-version-evolution
+   
 11. Pads are very "DIY friendly", meaning they are optimally designed to be
-    easy for soldering and creating a proper solder fillet. I use 1mm solder.
+    easy for soldering and creating a proper solder fillet. Recommend 0.8 to 1mm 63/37 solder.
 
 The PCB supports a Pololu 2808 power switch, or a physical Slide switch. (pololu.com)
 It uses 2 DRV8833 motor driver boards which can each control 2 motors/devices
 
-This is currently in beta and all features are not yet present. For instance, I have not
-added the ability to use a physical slide switch. I am testing this board with
-a few of the ProfessorBoots models and will post a more tested general release within a few weeks.
+Now in Release 2 with Beta version working very well.
 
-While anyone is welcome to download and test this PCB, no support is provided as it
-is purely in beta status at this time.
+Free use, except for commercial purposes. 
 
 I've included pinout diagrams of parts required by this board.
 
@@ -48,11 +50,17 @@ hardware.
 
 Dave Crabbe
 
-********* Testing *****************
+********* V2 Release *******************
+Changed from GPIO 5 to GPIO 27 for driving motor as 5 stayed high after reboot
+Moved Motor solder points higher and repositioned to better fit into holder in Skid Steer model
+Added physical switch alternative to Pololu 2808 (Pololu recommended)
+Added ground plane on bottom
+
+********* Beta Testing *****************
 
 Initial tests are great. No errors in the PCB. I've used board in both the larger Mini-Dump and in my "Tracker" remix of the mini-skidi
 
-******** BUGS *********************
+******** Beta BUGS *********************
 
 I used ESP32 Pin #5 for an input to a Motor Controller and should not have. This pin goes high on reboot. If you have this on a motor,
 the motor will operate until the code initializes that pin as an output. About 3-5 seconds. In the next iteration, I'll use D27 instead
