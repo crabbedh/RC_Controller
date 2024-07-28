@@ -23,6 +23,7 @@ goals for the creation of this PCB.
 9. Drop in replacement for the ProfessorBoots larger MiniDump model and
     "Tracker" Mini Skidi, using my remixed chassis. Both Tested.
      https://www.printables.com/model/948849-mini-dump-v3-power-remix
+   
      https://www.printables.com/model/896776-tracker-skidsteer-tank-track-version-evolution
    
 11. Pads are very "DIY friendly", meaning they are optimally designed to be
