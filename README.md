@@ -41,13 +41,13 @@ You can order 5 boards for a crazy cheap price. You can also choose very cheap g
 creating an account so you have a history of the order and can view its status. (at time of writing
 I received 5 boards for $6 Cdn, $4 US which I received in about 2 weeks)
 
-bigDumpv*.zip is the arduino IDE code for the Prof Boots mini-dump RC model (large one). This code
+bigDumpv*.zip is the PS3 Controller version (arduino IDE) code for the Prof Boots mini-dump RC model (large one). This code
 will work with the Prof Boots PCB and with the RC_Controller PCB here (you may have to change port 
 designations to match your setup. The battery monitor and
 remote power off obviously won't work with the Prof Boots PCB as this doesn't have the necessary
 hardware.
 
-ultimateSkidi.zip is arduino code for the Tracker Skidi and using my RC_Controller board. It gives
+ultimateSkidi.zip is arduino code for the PS3 Controlled, Tracker Skidi and using my RC_Controller board. It gives
 an example of adding many features to the basic skidi with software. It can be used with the V2 or V3
 Prof Boots PCB by changing the port designations for servos/motors and setting feature flags to false.
 
