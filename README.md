@@ -47,6 +47,10 @@ designations to match your setup. The battery monitor and
 remote power off obviously won't work with the Prof Boots PCB as this doesn't have the necessary
 hardware.
 
+ultimateSkidi.zip is arduino code for the Tracker Skidi and using my RC_Controller board. It gives
+an example of adding many features to the basic skidi with software. It can be used with the V2 or V3
+Prof Boots PCB by changing the port designations for servos/motors and setting feature flags to false.
+
 Dave Crabbe
 
 ********* V2 Release *******************
