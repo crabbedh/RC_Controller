@@ -4,6 +4,7 @@ RC Controller for ESP32 projects   July '24
 ![](https://media.printables.com/media/prints/948849/images/7242965_c2295a9b-c6d6-4bd2-b6e1-34f0434fa349_9126c0c7-5b0c-4fe7-a7f0-764dcddffd52/thumbs/inside/1600x1200/jpeg/img_3499.webp)
 Photo from https://www.printables.com/model/948849-mini-dump-v3-power-remix
 
+![](https://github.com/crabbedh/RC_Controller/blob/main/pcbv2Image.jpeg)
 --------->  V2 of PCB Gerber & Schematic now released
 Please use this version
 
