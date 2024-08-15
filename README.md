@@ -2,7 +2,8 @@
 RC Controller for ESP32 projects   July '24
 
 ![](https://github.com/crabbedh/RC_Controller/blob/main/pcbv2Image.jpeg)
---------->  V2 of PCB Gerber & Schematic now released
+
+--------->  V2 of PCB Gerber & Schematic now released (shown above)
 Please use this version
 
 * Beta Testing & BUG LISTING at end of this readme **********
